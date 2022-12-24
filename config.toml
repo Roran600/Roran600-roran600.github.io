@@ -1,10 +1,10 @@
 baseURL = "/"
-title = "Goldydocs"
+title = "Roran60 Blog"
 
 # Language settings
 contentDir = "content/en"
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
+defaultContentLanguage = "sk"
+defaultContentLanguageInSubdir = true
 # Useful when translating.
 enableMissingTranslationPlaceholders = true
 
@@ -64,22 +64,17 @@ title = "Goldydocs"
 description = "A Docsy example site"
 languageName ="English"
 # Weight used for sorting.
-weight = 1
-[languages.no]
-title = "Goldydocs"
+weight = 20
+
+[languages.sk]
+title = "Roran60 Blog"
 description = "Docsy er operativsystem for skyen"
-languageName ="Norsk"
-contentDir = "content/no"
+languageName ="Slovensky"
+contentDir = "content/sk"
 time_format_default = "02.01.2006"
 time_format_blog = "02.01.2006"
-
-[languages.fa]
-title = "اسناد گلدی"
-description = "یک نمونه برای پوسته داکسی"
-languageName ="فارسی"
-contentDir = "content/fa"
-time_format_default = "2006.01.02"
-time_format_blog = "2006.01.02"
+# Weight used for sorting.
+weight = 10
 
 [markup]
   [markup.goldmark]
